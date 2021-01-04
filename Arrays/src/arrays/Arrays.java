@@ -17,9 +17,10 @@ public class Arrays {
             System.out.print("Digite o nome do "+m+"º mês do ano.: ");
             meses[i] = sc.next();
         }
+        System.out.println("");
         System.out.println("Valores digitados.:");
         for(int i=0; i < meses.length; i++){
-            System.out.println(meses[i]);
+            System.out.print(meses[i]+" - ");
         }                
     }
     
