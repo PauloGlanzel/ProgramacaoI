@@ -38,5 +38,6 @@ public class Exercicio4_lista1_2021 {
             s = s + arrayPalavra[i];
         }
         System.out.println("Palavra concatenada.: "+s);
+        System.out.println("");
     }    
 }
