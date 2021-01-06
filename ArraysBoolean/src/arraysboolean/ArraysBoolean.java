@@ -24,7 +24,6 @@ public class ArraysBoolean {
         System.out.println("Valores digitados.:");
         for(int i=0; i < estudAprovProgI.length; i++){
             System.out.print(estudAprovProgI[i]+" - ");
-        }
-    }
-    
+        }       
+    }    
 }
