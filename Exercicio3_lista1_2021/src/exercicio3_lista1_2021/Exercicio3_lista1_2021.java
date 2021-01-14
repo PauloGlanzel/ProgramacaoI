@@ -26,6 +26,5 @@ public class Exercicio3_lista1_2021 {
         }
         System.out.println("");
         System.out.println("Total de numeros pares é.: "+somaPares);
-    }
-    
+    }    
 }

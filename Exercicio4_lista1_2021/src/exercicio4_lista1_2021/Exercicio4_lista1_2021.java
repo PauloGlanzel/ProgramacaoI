@@ -35,7 +35,7 @@ public class Exercicio4_lista1_2021 {
         System.out.println("Concatenando novamente os valores");
         System.out.println("");
         for(int i = 0; i< arrayPalavra.length; i++){
-            s = s + arrayPalavra[i];
+            s += arrayPalavra[i];
         }
         System.out.println("Palavra concatenada.: "+s);
         System.out.println("");

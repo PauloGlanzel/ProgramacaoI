@@ -16,11 +16,9 @@ public class Exercicio2_lista1_2021 {
         System.out.println("");
         for(int i = 0; i <numeros.length; i++){
             System.out.println("Posição: "+i+" Valor.: "+numeros[i]);
-        }
-        System.out.println("");
-        for(int i = 0; i <numeros.length; i++){
             soma += numeros[i];
         }
+        System.out.println("");
         System.out.println("Soma de todos os valores do array.: "+soma);
     }
     
