@@ -1,12 +1,15 @@
 
 package grelhacardano;
 
+import java.util.Scanner;
+
 /**
  *
  * @author Paulo Glanzel
  */
 public class GrelhaCardano {
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
         String[][] mensagem  = {{"A","I","O","N","T","R","I","E","S","P","Q","R","X","Z","Y"},
                                 {"E","S","S","T","T","A","M","R","E","M","N","I","O","X","S"},
                                 {"A","A","C","B","O","N","I","T","O","I","H","G","O","A","I"},
@@ -46,8 +49,10 @@ public class GrelhaCardano {
             }
             System.out.println("");
         }
-        System.out.println("");
-        System.out.println("Mensagem decifrada.: ");
+        System.out.print("\nPara decifrar a mensagem digite qquer tecla e [enter].:");
+        sc.next();
+        System.out.println("\nMensagem decifrada.: \n");
+        
         for(int i = 0; i < grelha.length; i++){
             for(int j = 0; j < grelha[0].length; j++){
                 if(grelha[i][j]){
