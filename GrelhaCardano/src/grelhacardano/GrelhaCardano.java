@@ -2,9 +2,7 @@
 package grelhacardano;
 
 import java.util.Scanner;
-
 /**
- *
  * @author Paulo Glanzel
  */
 public class GrelhaCardano {
@@ -42,7 +40,7 @@ public class GrelhaCardano {
                               {true, true, false, true, false, false, false, false, true, false, true, false, true, false, false},
                               {false, true, false, true, true, false, true, false, true, false, true, false, true, false, true}
                              };
-        System.out.println("Mensagem cifrada.:");
+        System.out.println("Mensagem cifrada.:\n");
         for(int i = 0; i < mensagem.length; i++){
             for(int j = 0; j < mensagem[0].length; j++){
                 System.out.print(mensagem[i][j]+" ");
